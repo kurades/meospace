@@ -25,6 +25,10 @@ const routes = [
         path : 'discover',
         component : ()=>import('@/views/DiscoverView.vue')
       },
+      {
+        path : 'setting',
+        component : ()=>import('@/views/SettingView.vue')
+      },
     ]
   },
   {

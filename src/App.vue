@@ -30,4 +30,9 @@ export default {
 html{
   overflow-y: hidden !important;
 }
+.v-application .text-h5,
+.v-application .text-h6,
+.v-application .text-caption {
+  font-family: "Montserrat", sans-serif !important;
+}
 </style>

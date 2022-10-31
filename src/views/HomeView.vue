@@ -46,9 +46,9 @@ export default {
 };
 </script>
 
-<style>
+<style >
 .flex-gap {
-  gap: 10px;
+  gap: 30px;
 }
 .scroll-hidden::-webkit-scrollbar{
   display: none;

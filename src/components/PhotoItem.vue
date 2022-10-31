@@ -24,7 +24,7 @@
           </div>
           <p class="my-2 ml-2 font-weight-medium text-caption">20/12/2012</p>
         </div>
-        <v-btn color="error" fab class="overlay-heart" @click="setFav">
+        <v-btn color="error" fab class="overlay-heart" @click.stop="setFav">
           <v-icon v-if="isFav">mdi-heart</v-icon>
           <v-icon v-else>mdi-heart-outline</v-icon>
         </v-btn>
